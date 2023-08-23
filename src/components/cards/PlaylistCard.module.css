@@ -1,0 +1,89 @@
+.card-container{
+    cursor: pointer;
+    margin-right: 2rem;
+    width: 15%;
+    height: 85%;
+    background-color: rgb(23,23,23);
+    border-radius: 5px;
+    display: grid;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    transition: all 0.3s;
+    overflow: hidden;
+   
+
+}
+
+.card-container:hover {
+    background-color: rgb(38,38,38);
+}
+
+.content-container{
+    min-width: inherit;
+    position: relative;
+    overflow: hidden;
+
+}
+.content-container > button {
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 6rem;
+    margin-top: -2rem;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: rgb(30,215,96);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.card-container:hover > .content-container > button {
+    visibility: visible;   
+    opacity: 1;
+    transform: translate(0px,-20px);
+    
+}
+
+.content-container > button:hover {
+    transform: scale(2);
+    background-color: rgb(31, 223, 100);
+}
+
+.content-container > button > img {
+    width: 2rem;
+    margin-left: 4px;
+    margin-top: 2px;
+}
+
+.content-container > img {
+    width: 10rem;
+    height: auto;
+    border-radius: 5px;
+
+    
+
+}
+
+.content-container > h4 {
+    color: white;
+    margin-top: 10px;
+    
+    
+}
+
+.content-container> p {
+    color: rgb(177,177,177);
+    margin-top: -1rem;
+    height: 3rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+}
+
+

@@ -1,0 +1,157 @@
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(10, 10, 10, 0.5);
+    position: absolute; 
+    padding-bottom: 10px; 
+    display: inline-flex;
+    z-index: 1;
+    transition: all 0.3s ease;
+    align-items: center;
+
+    
+}
+
+.header.scrolled{
+    background-color: rgb(10, 10, 10, 1);
+    
+}
+
+
+.direction-btn-container{
+    position: relative;
+    align-items: center;
+    width: fit-content;
+}
+
+.direction-button{
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 20px;
+    background-color: rgb(5,5,5);
+    border: none;
+    width: 30px;
+
+}
+.direction-button > img {
+    filter: invert(0.5) sepia(70) saturate(0) hue-rotate(0);
+}
+
+.direction-button:hover > img {
+    filter: invert(0) sepia(0) saturate(0) hue-rotate(0);
+}
+.auth-action-container{
+    
+    margin-left: 30px;
+
+}
+
+.sign-up{
+
+    text-decoration: none;
+    color: rgb(118,118,118);
+    font-weight: 600;
+    transition: all;
+    transition: all;
+    margin-right: 25px;
+
+    
+
+}
+.sign-up:hover{
+    color: white;
+    transform: scale(2);
+    
+}
+
+.sign-up:hover {
+    transform: scale(1.5);
+
+}
+
+.log-in-btn{
+    color: black;
+    background-color: white;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 25px;
+    border: none;
+    width: 110px;
+    height: 50px;
+    cursor: pointer;
+    transition: all;
+   
+}
+
+.log-in-btn:hover{
+    transform: scale(1.1);
+}
+
+.search-container {
+    border: 1px solid rgb(61, 59, 59,0);
+    width: 23%;
+    height: 2.3rem;
+    margin-top: 9px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: rgb(36,36,36);
+    display: flex;
+    margin-left: 2rem;
+    border-radius: 50px;
+    align-items: center;
+    visibility: hidden;
+
+
+}
+.search-container:hover{
+    border-color:rgb(61, 59, 59) ;
+    background-color: #2A2A2A;
+}
+
+.search-container.visible{
+    visibility: visible;
+}
+
+
+.search-container > input {
+    background-color: inherit;
+    width: 100%;
+    border: none;
+    color: white;
+    
+    
+}
+
+
+.search-container > input:focus {
+    outline: none;
+}
+
+.search-container > img {
+    width: 1.8rem;
+    margin-right: 5px;
+   
+}
+
+.anchor-container{
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    height: 25px;
+    border-right: 1px solid white;
+    margin-left: 6%;
+}
+
+.anchor-container > a {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(162,162,162);
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.anchor-container > a:hover {
+    transform: scale(1.1);
+    color: white;
+}

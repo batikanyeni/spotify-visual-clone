@@ -1,0 +1,14 @@
+.sign-up-header{
+    height: 120px;
+    width: 100%;
+    background-color: white; 
+    display: flex;
+    position: sticky;
+    align-items: center;
+}
+
+
+.sign-up-header > img {
+    width: 8rem;
+    margin-left: 42%;
+}

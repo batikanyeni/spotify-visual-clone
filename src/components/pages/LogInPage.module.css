@@ -1,0 +1,15 @@
+.log-in-page{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgb(30, 30, 30),rgb(0,0,0) 80%);
+    position: fixed;
+    overflow-y: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .log-in-page{
+        background-image: linear-gradient(to bottom, rgb(0,0,0) ,rgb(0,0,0) );
+        
+    }
+    
+}

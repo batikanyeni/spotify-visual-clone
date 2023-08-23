@@ -1,0 +1,213 @@
+.container{
+    background-color: rgb(18,18,18);
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    display: flexbox inline-flex;
+    overflow: hidden;
+}
+
+.button_container{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+
+}
+
+.plus_button{
+    margin-left: 210px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    padding-top: 5px;
+}
+.plus_button:hover {
+    background-color: rgb(25, 25, 25);
+}
+.plus_button > img {
+    width: 18px;
+}
+
+
+.library_button{
+    background-color: transparent;   
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.library_button > img {
+    width: 35px;
+}
+
+.library_button > span {
+    margin-left: 10px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(179,179,179);
+    transition: color 0.5s ease;
+}
+
+.library_button:hover > span {
+    color: white;
+}
+
+
+
+ 
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    
+    background-color: transparent;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    
+    background-color: #888;
+    opacity: 0.5;
+    
+  }
+
+  ::-webkit-scrollbar-thumb:hover{
+    background-color: #a5a3a3;
+  }
+ 
+
+.scorllable-container {
+    background-color: inherit;
+    overflow: hidden;
+    height: 220px;
+    transition: background-color 2s ease;
+    
+       
+}
+
+.scorllable-container:hover{
+    overflow-y: overlay;
+}
+
+.info-box-1{
+    background-color: rgb(36,36,36);
+    display: grid;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 395px;
+    padding-left: 5px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    height: auto;
+    
+}
+
+.info-box-1 > span {
+    color: rgb(255,255,255);
+    font-family: 'Libre Franklin', sans-serif;
+    margin-left: 15px;
+    
+}
+
+.info-box-1 >.span-1{
+
+    font-weight: bold;
+    
+}
+
+.info-box-1 >.span-2{
+    margin-top: 15px;
+}
+
+.info-box-1 > button {
+    
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+    font-size: small;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    width: 130px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 1s ease;
+    
+}
+
+.info-box-1 > button:hover {
+    transform: scale(1.1);
+}
+.grey-filtered{
+    filter: invert(0.5) sepia(70) saturate(0) hue-rotate(0);
+}
+
+.button_container:hover > .grey-filtered {
+    filter: invert(0) sepia(0) saturate(0) hue-rotate(0);
+}
+
+.link-container{
+   display: flexbox;
+ 
+
+}
+.link-container > a {
+    text-decoration: none;
+    color: rgb(179,179,179);
+    font-size: 12px;
+    margin: 10px;
+}
+
+.cookie {
+    text-decoration: none;
+    color: rgb(179,179,179);
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.cookie:hover {
+    text-decoration: underline;
+}
+
+.lang-button{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 20px;
+    width: 90px;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid white;
+    background-color: black;
+    cursor: pointer;
+    transition: all 1s ease;
+   
+   
+}
+
+.lang-button > span {
+    color: white;
+    font-size: small;
+    font-weight: 700;
+    margin-left: 5px;
+} 
+
+.lang-button > img {
+    width: 20px;
+}
+
+.lang-button:hover {
+    transform: scale(1.1);
+}
