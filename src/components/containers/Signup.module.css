@@ -356,6 +356,7 @@
         margin-left: 45px;
         font-size: 20px;
     }
+
     .sign-up-options{
         margin-left: 0;
         width: 100%;
@@ -367,9 +368,20 @@
 
     .input-container{
         width: 85%;
+        margin-left: 10px;
     }
-    .input-container >label {
-        margin-left: 2rem;
+
+    .sign-up-form >label > p {
+        margin-left: 10px;
+    }
+    .p1{
+        margin-left: 10px;
+    }
+    .p2{
+        margin-left: 10px;
+    }
+    .p3{
+        margin-left: 10px;
     }
     .tp-1{
         margin-left: 2rem;
@@ -383,7 +395,8 @@
         text-align: center;
     }
     .date-container{
-        width: 100%;
+        width: fit-content;
+        margin-left: 10px;
     }
     .month-selector{
         margin-left: 0px;
@@ -402,6 +415,10 @@
     }
     .year-label{
         margin-left: 2px;
+    }
+    .radio-container{
+        width: fit-content;
+        margin-left: 10px;
     }
     .sign-up-container > h2 {
         margin-left: 0px;
