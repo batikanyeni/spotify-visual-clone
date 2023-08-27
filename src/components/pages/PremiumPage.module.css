@@ -95,8 +95,88 @@
     font-weight: 400;
 }
 
+.middle-info{
+    display: grid;
+    text-align: center;
+    width: 100%;
+}
 
-@media screen and (max-width: 700px) {
+.middle-info > h1{
+    font-size: 40px;
+    margin-top: 80px;
+   
+}
+
+.advantages-container{
+    margin-top: 50px;
+    display: flex;
+    width: fit-content;
+    margin-left: 11vw;
+    margin-bottom: 100px;
+    transition: all 1s;
+}
+.advantages-container > .advantage{
+    display: block;
+    margin-left: 5vw;
+    text-align: center;
+    width: 200px;
+ 
+}
+
+.advantages-container > .advantage > img{
+    width: 8vw;
+   
+}
+
+@media screen and (max-width: 1200px) {
+    .advantages-container > .advantage > img{
+        min-width: 80px;
+    }
+}
+
+
+
+.advantages-container > .advantage > div > .p1{
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+.advantages-container > .advantage > div > .p2{
+    margin-top: -10px;
+    font-weight: 600;
+    font-size: 15px;
+   
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .top-info{
+        display: flex;
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+    .top-info > img{
+        width: 30vw;
+        height: 30vw;
+    }
+    .advantages-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 700px;
+    
+    }
+    .advantages-container > .advantage{
+        margin-top: 20px;
+    }
+
+
+  }
+
+  @media screen and (max-width: 700px) {
     .btn-container {
         display: flex;
         flex-direction: column;
@@ -122,23 +202,34 @@
     .premium-info > p {
         margin-left: 20px;
     }
-
-
-
-  }
-
-
-@media screen and (max-width: 900px) {
-    .top-info{
+    .middle-info{
+        text-align: center;
+    }
+    .middle-info > h1{
+        font-size: 20px;
+    
+    }
+    .advantages-container{
+        margin-left: 0px;
+        display: grid;
+        transition: all 1s;
+        width: 100%;
+       
+    }
+    .advantages-container > .advantage{
+        height: 110px;
+        width: 200px;
         display: flex;
-        height: fit-content;
-        flex-wrap: wrap;
-    }
-    .top-info > img{
-        width: 30vw;
-        height: 30vw;
+        margin-bottom: 40px;
+        
     }
 
+
+
   }
+
+
+
+
 
 
