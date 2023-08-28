@@ -10,7 +10,7 @@ export const BottomBox = () => {
                     <span>Your Library</span>
                 </button>
                 <button className={classes['plus_button']}>
-                    <img src="/assets/CreatePlaylist.svg" alt="plus_icon" className={classes['grey-filtered']} />
+                    <img src="/icons/CreatePlaylist.png" alt="plus_icon"/>
                 </button>                
             </div>
             <div className={classes['scorllable-container']}>

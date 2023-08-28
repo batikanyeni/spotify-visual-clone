@@ -18,10 +18,10 @@ export const MainHeader = (props) => {
             <div className={`${classes.header} ${props.scrollTop ? classes.scrolled : ""}`}>
                 <div className={classes['direction-btn-container']}>
                     <button className={classes['direction-button']}>
-                        <img alt="back_button" src="./assets/LeftArrow.svg"/>
+                        <img alt="back_button" src="./icons/LeftArrow.png"/>
                     </button>
                     <button className={classes['direction-button']} >
-                        <img  alt="forward_button" src="./assets/RightArrow.svg"/>
+                        <img  alt="forward_button" src="./icons/RightArrow.png"/>
                     </button>
                 </div>               
                 <div className={`${classes['search-container']} ${props.pageState === "Search" ? classes["visible"] : ""}`}>

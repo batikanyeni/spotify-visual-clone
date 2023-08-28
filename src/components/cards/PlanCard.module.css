@@ -90,7 +90,7 @@
 
 @media screen and (max-width: 700px) {
     .plan-card{
-        width: 330px;
+        width: 81vw;
         height: fit-content;
     }
     .plan-card > button {
@@ -104,5 +104,21 @@
     }
 
 }
+@media screen and (max-width: 600px) {
+    .plan-card{
+        width: 82vw;
+    }
+    .plan-card > button {
+        margin-top: 20px;
+        width: 70vw;
+        margin-left: 0px;
+    }
+    .einfo{
+        margin-top: 10px;
+        width: 90%;
+    }
+
+}
+
 
 

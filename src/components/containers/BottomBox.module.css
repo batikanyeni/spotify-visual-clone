@@ -20,18 +20,20 @@
 .plus_button{
     margin-left: 210px;
     border-radius: 50%;
-    background-color: transparent;
+    background-color: inherit;
     border: none;
     cursor: pointer;
     align-items: center;
     padding-top: 5px;
 }
-.plus_button:hover {
-    background-color: rgb(25, 25, 25);
-}
+
 .plus_button > img {
-    width: 18px;
+    width: 25px;
 }
+.plus_button > img:hover {
+    filter: brightness(1.5);
+}
+
 
 
 .library_button{
@@ -60,31 +62,6 @@
 .library_button:hover > span {
     color: white;
 }
-
-
-
- 
-::-webkit-scrollbar {
-    width: 15px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    
-    background-color: transparent;
-    
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    
-    background-color: #888;
-    opacity: 0.5;
-    
-  }
-
-  ::-webkit-scrollbar-thumb:hover{
-    background-color: #a5a3a3;
-  }
- 
 
 .scorllable-container {
     background-color: inherit;
