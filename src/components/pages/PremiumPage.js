@@ -1,6 +1,7 @@
 import classes from './PremiumPage.module.css'
 import { ResponsiveHeader } from '../header&banners/ResponsiveHeader'
 import { PlanCard } from '../cards/PlanCard'
+import { Footer } from '../header&banners/Footer'
 
 export const PremiumPage = () => {
 
@@ -91,5 +92,6 @@ export const PremiumPage = () => {
                     <PlanCard planInfo = {plan}/>)}
             </div>
         </div>
+        <Footer/>
     </div>
 }

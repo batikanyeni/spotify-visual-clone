@@ -1,0 +1,155 @@
+.footer{
+    width: 100%;
+    background-color: black;
+    height: 400px;
+    padding-top: 100px;
+    
+}
+.top-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20vw;
+    
+}
+
+.top-section > img{
+    width: 125px;
+    height: 38px;
+    margin-right: 60px;
+}
+
+.link-container {
+    display: grid;
+    height: fit-content;
+    margin-right: 80px;
+    padding-top: 20px;
+
+}
+.link-container > span {
+    color: rgb(144,143,145);
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.link-container > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.link-container> a:hover {
+    color: rgb(30, 213, 94);
+ 
+}
+
+.button-container{
+    margin-top: 20px;
+    display: inline;
+    margin-left: 200px;
+}
+
+.button-container > button {
+    background-color: rgb(41,41,41);
+    width: 3.3rem;
+    height: 3.3rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.button-container > button:hover {
+    background-color: rgb(114, 114, 114);
+}
+
+.button-container > button > img {
+    margin-top: 4px;
+    width: 1.5rem;
+}
+
+.bottom-section{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+
+.extras> a{
+    font-size: 11px;
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(158, 157, 157);
+}
+.bottom-section > div {
+    margin-left: 30vw;
+    margin-top: -60px;
+    text-align: end;
+}
+
+.bottom-section > div > a  {
+     color: rgb(158, 157, 157);
+     text-decoration: none;
+     font-size: 12px;
+     font-weight: 600;
+}
+.bottom-section > div > a > img  {
+    width: 10px;
+    margin-right: 2px;
+}
+
+
+.bottom-section > div > a:hover  {
+    color: rgb(30, 213, 94);
+
+}
+
+.bottom-section > div > p  {
+    color: rgb(158, 157, 157);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 900px) {
+    .footer{
+        display: grid;
+        height: fit-content;
+        padding-top: 60px;
+    }
+    .top-section{
+        margin-left: 20px;
+        display: grid;
+    }
+    .top-section > img{
+        width: 80px;
+        height: 40px;
+      
+    }
+    .link-container{
+        margin-bottom: 30px;
+    }
+    .button-container{
+        margin-left: 0px;
+    }
+    .bottom-section{
+        margin-left: 0px;
+    }
+    .extras{
+        display: flex;
+        flex-wrap: wrap;
+        width: 250px;
+        overflow: hidden;
+        margin-left: 15px;
+    }
+    .extras > a {
+        margin-right: 30px;
+    }
+    .bottom-section > div{
+        margin-left: auto;
+        padding-right: 30px;
+    }
+
+
+}
+
