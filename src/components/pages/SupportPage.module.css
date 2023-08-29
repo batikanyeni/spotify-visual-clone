@@ -1,0 +1,171 @@
+.support-page{   
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+    position: fixed;
+    overflow-y: scroll;
+}
+.header-gradient{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    z-index: -1;
+    background: linear-gradient(98.85deg,rgba(18,18,18,0.3) 0%,#121212 100%),linear-gradient(180deg,rgba(18,18,18,0) 0%,#121212 100%),#1ed760;
+}
+
+.help-container{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 600px;
+    margin-bottom: 50px;
+}
+.p1 {
+    color: rgb(165,166,166);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: -5px;
+
+}
+.help-container > h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 4.5rem;
+    margin-top: -10px;
+}
+.p2{
+    color: rgb(165,166,166);   
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.p2 > a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.input-container{
+    display: inline-flex;
+    background-color: white;
+    box-sizing: border-box;
+    padding-inline: 14px;
+    border-radius: 2px;
+    width: 100%;
+    height: 50px;
+    
+}
+.search-section{
+    margin-top: 60px;
+}
+
+.input-container > input{
+    font-size: 1rem;
+    outline: none;
+    border: none;
+}
+
+.img-container{
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.img-container > img {
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 11.8rem;
+}
+
+.quick-help {
+    background-color: rgb(42,42,42);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.qhelp-container{
+    width: 600px;
+    display: grid;
+}
+.qhelp-container > p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.qhelp-container > a {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.qhelp-container > a:hover {
+    text-decoration: underline;
+}
+.qhelp-container > a > img {
+    width: 1rem;
+    margin-left: auto;
+}
+
+
+.visit-section{
+    background-color: rgb(18,18,18);
+    width: 100%;
+    height: 220px;
+    text-align: center;
+}
+.visit-section > h1{
+    color: white;
+    font-size: 2.5rem;
+}
+.visit-section > p {
+    color: white;
+}
+.visit-section > button {
+    cursor: pointer;
+    width: 200px;
+    height: 45px;
+    background-color: #1ed760;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    border-radius: 500px;
+
+}
+.visit-section > button:hover {
+    transform: scale(1.05);
+}
+
+
+
+@media screen and (max-width:600px) {
+    .help-container{
+        width: 100%;
+        text-align: center;
+    }
+    .help-container > h1 {
+        font-size: 3rem;
+    }
+    .input-container {
+        width: 90%;
+    }
+    .img-container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .img-container > img{
+        width: 45vw;
+    }
+    .visit-section{
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+    
+}
+
+

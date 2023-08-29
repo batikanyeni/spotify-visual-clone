@@ -4,6 +4,7 @@ import { MainPage } from './components/pages/MainPage';
 import { Routes, Route } from 'react-router-dom';
 import { PremiumPage } from './components/pages/PremiumPage';
 import { DownloadPage } from './components/pages/DownloadPage';
+import { SupportPage } from './components/pages/SupportPage';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path='/sign-up' element = {<SignUpPage/>} />
           <Route path='/premium' element = {<PremiumPage/>} />
           <Route path='/download' element = {<DownloadPage/>}/>
+          <Route path='/support' element = {<SupportPage/>}/>
       </Routes>
     </div>
   );

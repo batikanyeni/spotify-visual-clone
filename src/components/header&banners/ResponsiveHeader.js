@@ -3,7 +3,7 @@ import React from 'react';
 import classes from './ResponsiveHeader.module.css'
 import { useNavigate } from 'react-router-dom';
 export const ResponsiveHeader = (props) => {
-
+    const style = props.headerStyle;
     const [hamActive, setHamActive] = useState(false);
     const navigate = useNavigate(); 
 
@@ -18,8 +18,8 @@ export const ResponsiveHeader = (props) => {
 
 
 
-    return (<React.Fragment><div className={classes['responsive-header']}>
-        <img onClick={pageChange} alt='spotify_logo' src='./icons/spotify-logo-1.png'/>
+    return (<React.Fragment><div style={style} className={classes['responsive-header']}>
+        <img onClick={pageChange} alt='spotify_logo' src='./icons/spotify-logo-no-bg.png'/>
         <div className={classes['nav-container']}>
             <nav className={classes['page-nav-container']}>
                 <a href='/premium'>Premium</a>

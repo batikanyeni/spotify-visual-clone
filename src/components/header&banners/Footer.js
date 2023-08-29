@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
     <div className={classes['footer']}>
         <div className={classes['top-section']}>
-            <img alt='spotify-logo' src='./icons/spotify-logo-1.png'></img>
+            <img alt='spotify-logo' src='./icons/spotify-logo-no-bg.png'></img>
             <nav className={classes['link-container']}>
                 <span>COMPANY</span>
                 <a href='/'>About</a>
